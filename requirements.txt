@@ -1,6 +1,7 @@
 numpy>=1.26
 regex>=2024.0          # grapheme clusters with \X
-datasets>=2.19         # loading NSINA from Hugging Face
+huggingface_hub>=0.23  # downloading NSINA
+ijson>=3.2             # streaming the 1.9 GB JSON file one article at a time
 matplotlib>=3.8
 pytest>=8.0
 
