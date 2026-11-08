@@ -32,6 +32,16 @@ docs/             plan, derivations, notes
 - Data and checkpoints live on Google Drive, not in git.
 - Commit messages: `STGWKS-XX: short imperative description` (Jira project STGWKS).
 
+## Data
+
+**NSINA** – a news corpus for Sinhala (~507K articles from 10 Sri Lankan news sites).
+Hugging Face: [`sinhala-nlp/NSINA`](https://huggingface.co/datasets/sinhala-nlp/NSINA) (gated: accept the conditions first).
+Licence: **CC-BY-SA-4.0**.
+
+Citation: Hettiarachchi, H., Premasiri, D., Uyangodage, L., Ranasinghe, T. *NSINA: A News Corpus for Sinhala.* LREC-COLING 2024.
+
+This project uses a seeded random 40 MB slice (`notebooks/01_download_data.ipynb`). All text is news, so the model will be biased toward news style and topics; this is discussed in the report.
+
 ## Run on Colab
 
 Open `notebooks/00_colab_setup.ipynb` in Colab with a GPU runtime and run all cells.
