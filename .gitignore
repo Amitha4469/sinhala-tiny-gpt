@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and model files (keep on Google Drive, not in git)
+/data/
+/checkpoints/
+/runs/
+*.npy
+*.npz
+*.bin
+*.pt
+*.parquet
+*.arrow
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

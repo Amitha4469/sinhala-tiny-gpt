@@ -1,0 +1,9 @@
+[project]
+name = "sgpt"
+version = "0.1.0"
+description = "Sinhala Tiny GPT built from scratch in NumPy"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

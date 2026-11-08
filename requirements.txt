@@ -1,0 +1,10 @@
+numpy>=1.26
+regex>=2024.0          # grapheme clusters with \X
+datasets>=2.19         # loading NSINA from Hugging Face
+matplotlib>=3.8
+pytest>=8.0
+
+# Reference only: used in tests/ and for comparison runs, never inside sgpt/nn or sgpt/models
+torch>=2.2
+
+# GPU on Colab: CuPy (cupy-cuda12x) is usually preinstalled. If not: pip install cupy-cuda12x
